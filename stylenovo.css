@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    position: fixed;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    margin-left: 20rem;
+    background-color: black;
+}
+
+section {
+    min-height: 100vh;
+    padding-top: 3rem;
+}
+
+body {
+    background-color: black;
+    color: red;
+}
+
+#titulo {
+    align-items: center;
+    font-size: 5rem;
+    margin-left: 23rem;
+    font-family: 'Yatra One', cursive;
+}
+
+#paragrafo {
+    font-size: 2rem;
+}
+
+#subtitulo {
+    color: white;
+}
+
+#paragrafo {
+    color: white;
+}
+
+#imagem {
+    padding-top: 0%;
+}
+
+#acessorios {
+    background-size: 0%;
+    margin-top: 0%;
+}
+
+#footer {
+    color: white;
+}
+
+#grupo {
+    border: 0ch;
+}
+
+#search {
+    border-radius: 10px;
+}
+
+#search:hover {
+    background: #ccbbff;
+}
+
+#header {
+    background-color: grey;
+    border: 0%;
+}
+
+#logotipo {
+    border: 0ch;
+}
+
+#botao {
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    border: 0ch;
+    transform: translate(-50% -50%);
+}
+
+#botao:hover {
+    background: #ccbbff;
+}
+
+#sections:hover {
+    background: #ccbbff;
+}
