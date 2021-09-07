@@ -21,8 +21,13 @@ nav ul {
 }
 
 section {
-    min-height: 100vh;
+    min-height: 10vh;
     padding-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 2rem;
+    margin-bottom: 0rem;
+    border-bottom: 0rem;
 }
 
 body {
@@ -43,14 +48,20 @@ body {
 
 #subtitulo {
     color: white;
+    font-family: 'Yatra One', cursive;
 }
 
 #paragrafo {
     color: white;
+    font-family: 'Yatra One', cursive;
 }
 
 #imagem {
     padding-top: 0%;
+    border-left: 10rem;
+    border-right: 0rem;
+    margin-left: 0%;
+    margin-right: 0rem;
 }
 
 #acessorios {
@@ -97,4 +108,15 @@ body {
 
 #sections:hover {
     background: #ccbbff;
+}
+
+#main {
+    border-radius: 0%;
+}
+
+#campo {
+    border-bottom: 0%;
+    margin-bottom: 0%;
+    border-top: 0%;
+    margin-top: 0%;
 }
